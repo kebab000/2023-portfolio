@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+// 세팅
+@import "assets/scss/setting/fonts.scss";
+@import "assets/scss/setting/base.scss";
+@import "assets/scss/setting/mixins.scss";
+
+// 커먼
+@import "assets/scss/common/common.scss";
+
+// section
+
+@import "assets/scss/section/section1.scss";
+@import "assets/scss/section/section2.scss";
+@import "assets/scss/section/section3.scss";
+@import "assets/scss/section/section4.scss";
+@import "assets/scss/section/section5.scss";
+@import "assets/scss/section/section6.scss";
+
+// 영수증
+@import "assets/scss/section/ticket.scss";
