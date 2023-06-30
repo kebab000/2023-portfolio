@@ -1,8 +1,6 @@
-import "./assets/script/section1.js"
-import "./assets/script/section2.js"
-import "./assets/script/section3.js"
-import "./assets/script/section4.js"
-import "./assets/script/section5.js"
-import "./assets/script/ticket.js"
+import "./src/assets/script/section01"
+import "./src/assets/script/section03"
+import "./src/assets/script/layout"
+
 // import "./style.scss";
 
