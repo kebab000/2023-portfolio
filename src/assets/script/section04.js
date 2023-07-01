@@ -43,3 +43,41 @@ function section4Scroll() {
 
 }
   section4Scroll();
+
+
+  gsap.set(".img1", {autoAlpha: 1, filter: "grayscale(100%)" })
+  gsap.set(".img2", {autoAlpha: 1, filter: "grayscale(100%)" })
+  gsap.set(".img3", {autoAlpha: 1, filter: "grayscale(100%)" })
+  gsap.set(".img4", {autoAlpha: 1, filter: "grayscale(100%)" })
+  gsap.set(".img5", {autoAlpha: 1, filter: "grayscale(100%)" })
+  gsap.set(".img6", {autoAlpha: 1, filter: "grayscale(100%)" })
+  gsap.set(".img7", {autoAlpha: 1, filter: "grayscale(100%)" })
+
+const ani102 = gsap.timeline();
+ani102.to(".img1",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img1",      {duration:1,  filter: "grayscale(100%)"})
+ani102.to(".img2",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img2",      {duration:1,  filter: "grayscale(100%)"})
+ani102.to(".img3",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img3",      {duration:1,  filter: "grayscale(100%)"})
+ani102.to(".img4",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img4",      {duration:1,  filter: "grayscale(100%)"})
+ani102.to(".img5",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img5",      {duration:1,  filter: "grayscale(100%)"})
+ani102.to(".img6",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img6",      {duration:1,  filter: "grayscale(100%)"})
+ani102.to(".img7",      {duration:1,  filter: "grayscale(0%)"})
+ani102.to(".img7",      {duration:1,  filter: "grayscale(100%)"})
+
+
+ScrollTrigger.create({
+    animation: ani102,
+    trigger: ".img1",
+    scrub: true,
+    start: "top top%",
+
+    // pin: true, 
+    anticipatePin: 1,
+    markers: true
+});
+

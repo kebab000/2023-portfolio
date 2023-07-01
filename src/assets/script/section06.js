@@ -77,8 +77,8 @@ ani101.to("#section6 .section .box__wrap", {duration:1, x:2800, width: "500px", 
 ani101.to("#section6 .section .box__wrap .slider__wrap", {duration:2, autoAlpha:1, y:0})
 ani101.to("#section6 .section .box__wrap", {duration:2, x:2850,})
 ani101.to("#section6 .section .box__wrap .slider__wrap", {duration:1,autoAlpha:0, y: 10})
-ani101.to("#section6 .section .box__wrap", {duration:3, x:2900, width: "10vw", height: "350px"})
-ani101.to("#section6 .section .box__wrap", {duration:3, x:2900, width: "10vw", height: "10vw"})
+ani101.to("#section6 .section .box__wrap", {duration:1, x:2900, width: "10vw", height: "350px"})
+ani101.to("#section6 .section .box__wrap", {duration:1, x:2900, width: "10vw", height: "10vw"})
 ani101.to("#section6 .section .box__wrap", {duration:10,x:3500, y:-180, rotateZ:0})
 
 // slider끝
@@ -123,5 +123,5 @@ ScrollTrigger.create({
   scrub: true,
   pin: true,
   anticipatePin: 1,
-  markers: true
+  // markers: true
 });

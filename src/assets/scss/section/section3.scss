@@ -63,8 +63,10 @@
     font-size: 16px;
     line-height: 1.5;
     font-family: 'ChosunNm';
-    padding-right: 15%;
+    // padding-right: 15%;
     margin-bottom: 10px;
+    background-color: #e5e5e5e4;
+    border-radius: 10px;
 }
 .sec-pin .box .btn a {
     border: 1px solid #FF0000;
@@ -100,8 +102,8 @@
     width: 25vw;
 }
 .sec-pin .box1 .mockup1 {
-    right: -85%;
-    bottom: -35%;
+    right: -23vw;
+    bottom: -27vh;
 }
 // box2 시작
 .sec-pin .box2 {
@@ -138,8 +140,8 @@
     margin-right: 10px;
 }
 .sec-pin .box3 .mockup3 {
-    right: -85%;
-    bottom: -30%;
+    right: -23vw;
+    bottom: -20vh;
 
 }
 .sec-pin .box3 .qr3 {

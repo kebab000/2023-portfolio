@@ -57,7 +57,7 @@ window.addEventListener("scroll", ()=>{
         document.querySelector("#section1 .text .d3").innerHTML = "배움에 겸손하게 접근하며, 새로운 기술과 도구를 습득하여 혁신적인 솔루션을 만들어내고자 합니다."   
         document.querySelector("#section1 .text .d2").innerHTML = "문제에 직면했을 때도 포기하지 않고 창의적인 해결책을 모색하며, 팀과의 협업을 통해 협력적인 개발자로 성장하고 싶습니다."   
         document.querySelector("#section1 .text .d1").innerHTML = "소프트웨어 개발의 여정에서 함께 성장하며, 혁신과 가치를 창출하는 신입 개발자로 거듭날 것입니다."   
-        document.querySelector("#section1 .text .t1").innerHTML = "JAVASCRIPT"   
-        document.querySelector("#section1 .text .t2").innerHTML = "EFFECT"   
+        document.querySelector("#section1 .text .t1").innerHTML = "EXPLORE"   
+        document.querySelector("#section1 .text .t2").innerHTML = "INNOVATE"   
     }
 });
