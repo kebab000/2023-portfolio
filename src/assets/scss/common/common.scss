@@ -1,12 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .show__code {
-    color: red;
-    display: inline-block;
-    padding: 3px 10px;
-    border: 1px solid red;
-    border-radius: 50px;         
-    transition: all 0.6s;
+  border: 1px solid #ff0000;
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #ff0000;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  transition: all 0.6s;
+  margin-bottom: 5px;
+  &:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
 }

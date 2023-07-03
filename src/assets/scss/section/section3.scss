@@ -1,269 +1,280 @@
 #section3 {
-    // overflow: hidden;
-    width: 100%;
-    background-color: #e5e5e5;
-    padding: 30vh 0;
+  // overflow: hidden;
+  width: 100%;
+  background-color: #e5e5e5;
+  padding: 30vh 0;
 }
 
 #section3 .sec-title {
-    font-size: 10vw;
-    font-family: "Poppins";
-    line-height: .81;
-    font-weight: 100;
-    white-space: nowrap;
-    margin-bottom: 30vh;
-    // animation: pass1 50s linear infinite;
-
+  font-size: 10vw;
+  font-family: "Poppins";
+  line-height: 0.81;
+  font-weight: 100;
+  white-space: nowrap;
+  margin-bottom: 30vh;
+  // animation: pass1 50s linear infinite;
 }
 #section3 .sec-title > div:nth-child(1) {
-    animation: pass1 50s linear infinite;
+  animation: pass1 50s linear infinite;
 }
 #section3 .sec-title > div:nth-child(2) {
-    margin-left: -20vw;
-    animation: pass2 50s linear infinite;
+  margin-left: -20vw;
+  animation: pass2 50s linear infinite;
 }
 #section3 .sec-title > div:nth-child(3) {
-    margin-left: -10vw;
-    animation: pass3 50s linear infinite;
+  margin-left: -10vw;
+  animation: pass3 50s linear infinite;
 }
 #section3 .sec-title > div em {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .sec-pin > div {
-    width: 100%;
-     height: 80vh;
+  width: 100%;
+  height: 80vh;
 }
-.sec-pin .sec3-section1 {background-color: #e5e5e5;}
-.sec-pin .sec3-section2 {background-color: #e5e5e5;}
-.sec-pin .sec3-section3 {background-color: #e5e5e5; height: 0vh;}
-.sec-pin .sec3-section4 {background-color: #e5e5e5; height: 0vh;}
-.sec-pin .sec3-section5 {background-color: #e5e5e5; height: 0vh;}
-.sec-pin .sec3-section6 {background-color: #e5e5e5; height: 0vh;}
+.sec-pin .sec3-section1 {
+  background-color: #e5e5e5;
+}
+.sec-pin .sec3-section2 {
+  background-color: #e5e5e5;
+}
+.sec-pin .sec3-section3 {
+  background-color: #e5e5e5;
+  height: 0vh;
+}
+.sec-pin .sec3-section4 {
+  background-color: #e5e5e5;
+  height: 0vh;
+}
+.sec-pin .sec3-section5 {
+  background-color: #e5e5e5;
+  height: 0vh;
+}
+.sec-pin .sec3-section6 {
+  background-color: #e5e5e5;
+  height: 0vh;
+}
 
 .sec-pin .box {
-    border: 1px solid #000;
-    border-radius: 30px;
-    padding: 2vw;
-    position: relative;
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 2vw;
+  position: relative;
 }
 .sec-pin .box span {
-    font-family: "Poppins";
-    font-weight: 900;
-    font-size: 30px;
-    padding-bottom: 20px;
-    display: inline-block;
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 30px;
+  padding-bottom: 20px;
+  display: inline-block;
 }
 .sec-pin .box h3 {
-    font-size: 24px;
-    font-family: 'ChosunNm';
-    margin-bottom: 10px;
+  font-size: 24px;
+  font-family: "ChosunNm";
+  margin-bottom: 10px;
 }
 .sec-pin .box p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'ChosunNm';
-    // padding-right: 15%;
-    margin-bottom: 10px;
-    background-color: #e5e5e5e4;
-    border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "ChosunNm";
+  // padding-right: 15%;
+  margin-bottom: 10px;
+  background-color: #e5e5e5e4;
+  border-radius: 10px;
 }
 .sec-pin .box .btn a {
-    border: 1px solid #FF0000;
-    font-family: "Poppins";
-    font-size: 14px;
-    color: #FF0000;
-    padding: 3px 10px;
-    border-radius: 20px;
-    display: inline-block;
-    margin-bottom: 5px;
-    &:hover {
-        background-color: #FF0000;
-        color: #fff;
-    }
+  border: 1px solid #ff0000;
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #ff0000;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 5px;
+  &:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
 }
 .sec-pin .box .qr {
-    display: inline-block;
-    width: 130px;
-    border: 1px solid #000;
-    border-radius: 10px;
-    padding: 5px;
-    margin-top: 70px;
+  display: inline-block;
+  width: 130px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 70px;
 }
 .sec-pin .mockup {
-    position: absolute;
-    width: 40vw;
-    // z-index: -1;
+  position: absolute;
+  width: 40vw;
+  // z-index: -1;
 }
 
 .sec-pin .box1 {
-    position: relative;
-    left: 10%;
-    top: 10%;
-    width: 25vw;
+  position: relative;
+  left: 10%;
+  top: 10%;
+  width: 25vw;
 }
 .sec-pin .box1 .mockup1 {
-    right: -23vw;
-    bottom: -27vh;
+  right: -23vw;
+  bottom: -27vh;
 }
 // box2 시작
 .sec-pin .box2 {
-    position: relative;
-    left: 60%;
-    top: -50%;
-    text-align: right;
+  position: relative;
+  left: 60%;
+  top: -50%;
+  text-align: right;
 }
 .sec-pin .box2 p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'ChosunNm';
-    padding-right: 0%;
-    padding-left: 10%;
-    margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "ChosunNm";
+  padding-right: 0%;
+  padding-left: 10%;
+  margin-bottom: 10px;
 }
 .sec-pin .box2 .qr2 {
-    margin-left: 60%;
+  margin-left: 60%;
 }
 .sec-pin .box2 .mockup2 {
-    right: 25%;
-    bottom: -45%;
+  right: 25%;
+  bottom: -45%;
 }
 
 // box3
 
 .sec-pin .box3 {
-    position: relative;
-    left: 10%;
-    top: -120vh;
-    width: 25vw;
+  position: relative;
+  left: 10%;
+  top: -120vh;
+  width: 25vw;
 }
 .sec-pin .box3 p {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 .sec-pin .box3 .mockup3 {
-    right: -23vw;
-    bottom: -20vh;
-
+  right: -23vw;
+  bottom: -20vh;
 }
 .sec-pin .box3 .qr3 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 // box4
 .sec-pin .box4 {
-    position: relative;
-    left: 60%;
-    top: -70vh;
-    text-align: right;
+  position: relative;
+  left: 60%;
+  top: -70vh;
+  text-align: right;
 }
 .sec-pin .box4 p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'ChosunNm';
-    padding-right: 0%;
-    padding-left: 20px;
-    margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "ChosunNm";
+  padding-right: 0%;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .sec-pin .box4 .qr4 {
-    margin-left: 60%;
-    margin-top: 15px;
+  margin-left: 60%;
+  margin-top: 15px;
 }
 .sec-pin .box4 .mockup4 {
-    right: 30%;
-    bottom: -31%;
+  right: 30%;
+  bottom: -31%;
 }
 // box5
 
 .sec-pin .box5 {
-    position: relative;
-    left: 10%;
-    top: -130vh;
-    // text-align: right;
+  position: relative;
+  left: 10%;
+  top: -130vh;
+  // text-align: right;
 }
 .sec-pin .box5 p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'ChosunNm';
-    // padding-right: 0%;
-    padding-right: 20px;
-    margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "ChosunNm";
+  // padding-right: 0%;
+  padding-right: 20px;
+  margin-bottom: 10px;
 }
 .sec-pin .box5 .qr5 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .sec-pin .box5 .mockup5 {
-    left: 32%;
-    bottom: -30%;
+  left: 32%;
+  bottom: -30%;
 }
 
 // box4
 .sec-pin .box6 {
-    position: relative;
-    left: 60%;
-    top: -70vh;
-    text-align: right;
+  position: relative;
+  left: 60%;
+  top: -70vh;
+  text-align: right;
 }
 .sec-pin .box6 p {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'ChosunNm';
-    padding-right: 0%;
-    padding-left: 20px;
-    margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "ChosunNm";
+  padding-right: 0%;
+  padding-left: 20px;
+  margin-bottom: 10px;
 }
 .sec-pin .box6 .qr6 {
-    margin-left: 60%;
-    margin-top: 10px;
+  margin-left: 60%;
+  margin-top: 10px;
 }
 .sec-pin .box6 .mockup6 {
-    right: 30%;
-    bottom: -35%;
+  right: 30%;
+  bottom: -35%;
 }
-
 
 #section4 {
-    width: 100%;
-    height: 2000px;
-    // background-color:red;
+  width: 100%;
+  height: 2000px;
+  // background-color:red;
 }
 #section5 {
-    width: 100%;
-    height: 2000px;
-    background-color:transparent;
+  width: 100%;
+  height: 2000px;
+  //   background-color: transparent;
+  position: relative;
 }
 
-
-
-
 @keyframes pass1 {
-    0% {
-      transform: translate(-2vw);
-    }
-    to {
-      transform: translate(-100vw);
-    }
+  0% {
+    transform: translate(-2vw);
   }
-  @keyframes pass2 {
-    0% {
-      transform: translate(-100vw);
-    }
-    to {
-      transform: translate(-2vw);
-    }
+  to {
+    transform: translate(-100vw);
   }
-  @keyframes pass3 {
-    0% {
-      transform: translate(-1vw);
-    }
-    to {
-      transform: translate(-99vw);
-    }
+}
+@keyframes pass2 {
+  0% {
+    transform: translate(-100vw);
   }
-  .scroll {
-    position: fixed;
-    bottom: 0;
-    left: 100px;
-    background-color: #eb0404;
-    width: 100px;
-    height: 50px;
-    display: none;
+  to {
+    transform: translate(-2vw);
+  }
+}
+@keyframes pass3 {
+  0% {
+    transform: translate(-1vw);
+  }
+  to {
+    transform: translate(-99vw);
+  }
+}
+.scroll {
+  position: fixed;
+  bottom: 0;
+  left: 100px;
+  background-color: #eb0404;
+  width: 100px;
+  height: 50px;
+  display: none;
 }
