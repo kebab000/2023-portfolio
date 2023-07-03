@@ -120,7 +120,7 @@ ScrollTrigger.create({
   //   const containerWidth = window.innerWidth;
   //   return `+=${sectionWidth - containerWidth}`;
   // },
-  scrub: true,
+  scrub: 1,
   pin: true,
   anticipatePin: 1,
   // markers: true
