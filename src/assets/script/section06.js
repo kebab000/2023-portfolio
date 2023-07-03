@@ -62,7 +62,7 @@ ani101.to("#section6 .section .box__wrap .quiz__wrap", {duration:0.5,autoAlpha:0
 ani101.to("#section6 .section .box__wrap", {duration:1, x:2200, width: "10vw", height: "350px"})
 ani101.to("#section6 .section .box__wrap", {duration:1, x:2350, width: "10vw", height: "10vw"})
 ani101.to("#section6 .section .box__wrap", {duration:1, y:0})
-ani101.to("#section6 .section .box__wrap", {duration:1, y:-90, width: "10vw", height: "450px"})
+ani101.to("#section6 .section .box__wrap", {duration:1, y:-45, width: "10vw", height: "450px"})
 ani101.to("#section6 .section .box__wrap", {duration:1, width: "600px", height: "450px"})
 ani101.to("#section6 .section .box__wrap .mouse__wrap", {duration:2, autoAlpha:1, y:0})
 ani101.to("#section6 .section .box__wrap", {duration:2, x:2400,})
