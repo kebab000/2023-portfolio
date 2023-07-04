@@ -3,11 +3,11 @@ const layout1 = document.querySelector(".left .left__desc");
 const layout2 = document.querySelector(".right #ticket");
 const siteCount = document.querySelector(".site__count");
 const phpCount = document.querySelector(".php__count");
-let count1 = 0;
-let count2 = 0;
+let count1 = 4;
+let count2 = 2;
 
 gsap.set(layout1, { autoAlpha: 1, y: -5100 });
-gsap.set(layout2, { autoAlpha: 1, y: 535 });
+// gsap.set(layout2, { autoAlpha: 1, y: 535 });
 
 let scrollLayout = 0;
 window.addEventListener("scroll", () => {
@@ -23,33 +23,6 @@ window.addEventListener("scroll", () => {
 
   gsap.to(layout1, { duration: 0.3, y: -5100 + scrollLayout });
 
-  // if (scrollTop == 6606) {
-  //     layout2.style.transform = 'translate(0px, 506px)';
-  //     count1++;
-  // }
-  // if (scrollTop == 9505 ) {
-  //     layout2.style.transform = "translate(0px, 490px)";
-  //     count1++
-
-  // }
-  // if (scrollTop == 13200) {
-  //     layout2.style.transform = "translate(0px, 475px)";
-  //     count1++
-
-  // }
-  // if (scrollTop == 17145) {
-  //     layout2.style.transform = "translate(0px, 460px)";
-  //     count1++
-
-  // }
-  // if (scrollTop == 20300) {
-  //     layout2.style.transform = "translate(0px, 410px)";
-  //     count2++
-  // }
-  // if (scrollTop == 24420) {
-  //     layout2.style.transform = "translate(0px, 395px)";
-  //     count2++
-  // }
   if (scrollTop > 26500) {
     document.querySelector("#section1 .text .d3").innerHTML =
       "배움에 겸손하게 접근하며, 새로운 기술과 도구를 습득하여 혁신적인 솔루션을 만들어내고자 합니다.";
@@ -82,5 +55,59 @@ window.addEventListener("scroll", () => {
     document.querySelector("#section1 .text .d1").innerHTML = "";
     document.querySelector("#section1 .text .t1").innerHTML = "";
     document.querySelector("#section1 .text .t2").innerHTML = "";
+  }
+});
+
+window.addEventListener("scroll", () => {
+  scrollTop =
+    window.pageYOffset || window.scrollY || document.documentElement.scrollTop;
+
+  if (scrollTop > 6550) {
+    document.querySelector(".right #ticket").classList.add("active1");
+  }
+  if (scrollTop > 9320) {
+    document.querySelector(".right #ticket").classList.remove("active1");
+    document.querySelector(".right #ticket").classList.add("active2");
+  }
+  if (scrollTop > 13130) {
+    document.querySelector(".right #ticket").classList.remove("active2");
+    document.querySelector(".right #ticket").classList.add("active3");
+  }
+  if (scrollTop > 17000) {
+    document.querySelector(".right #ticket").classList.remove("active3");
+    document.querySelector(".right #ticket").classList.add("active4");
+  }
+  if (scrollTop > 20230) {
+    document.querySelector(".right #ticket").classList.remove("active4");
+    document.querySelector(".right #ticket").classList.add("active5");
+  }
+  if (scrollTop > 24100) {
+    document.querySelector(".right #ticket").classList.remove("active5");
+    document.querySelector(".right #ticket").classList.add("active6");
+  }
+  if (scrollTop > 31950) {
+    document.querySelector(".right #ticket").classList.remove("active6");
+    document.querySelector(".right #ticket").classList.add("active7");
+  }
+  if (scrollTop > 33920) {
+    document.querySelector(".right #ticket").classList.remove("active7");
+    document.querySelector(".right #ticket").classList.add("active8");
+  }
+  if (scrollTop > 35595) {
+    document.querySelector(".right #ticket").classList.remove("active8");
+    document.querySelector(".right #ticket").classList.add("active9");
+  }
+  if (scrollTop > 36800) {
+    document.querySelector(".right #ticket").classList.remove("active9");
+    document.querySelector(".right #ticket").classList.add("active10");
+  }
+  if (scrollTop > 38590) {
+    document.querySelector(".right #ticket").classList.remove("active10");
+    document.querySelector(".right #ticket").classList.add("active11");
+  }
+  if (scrollTop > 39770) {
+    document.querySelector(".right #ticket").classList.remove("active11");
+    document.querySelector(".right #ticket").classList.add("active12");
+    document.querySelector(".right #ticket").style.transition = "all 2.5s";
   }
 });

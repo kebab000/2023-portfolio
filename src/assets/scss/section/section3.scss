@@ -82,6 +82,8 @@
   margin-bottom: 10px;
   background-color: #e5e5e5e4;
   border-radius: 10px;
+  z-index: -100;
+  position: relative;
 }
 .sec-pin .box .btn a {
   border: 1px solid #ff0000;
@@ -92,6 +94,7 @@
   border-radius: 20px;
   display: inline-block;
   margin-bottom: 5px;
+
   &:hover {
     background-color: #ff0000;
     color: #fff;
@@ -108,7 +111,7 @@
 .sec-pin .mockup {
   position: absolute;
   width: 40vw;
-  // z-index: -1;
+  z-index: -1;
 }
 
 .sec-pin .box1 {
@@ -276,5 +279,6 @@
   background-color: #eb0404;
   width: 100px;
   height: 50px;
-  display: none;
+  // display: none;
+  z-index: 9999;
 }
