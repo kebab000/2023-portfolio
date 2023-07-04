@@ -626,6 +626,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
     <script src="https://unpkg.com/split-type"></script>
     <script type="module" src="main.js"></script>
 
@@ -638,7 +640,18 @@
       }
       requestAnimationFrame(raf);
 
-      //
+      // 날짜 입력
+
+      function printTime() {
+        const now = new Date();
+        const year = now.getFullYear();
+        const month = now.getMonth() + 1;
+        const date = now.getDate();
+        const timeString = `${year}/${month}/${date}`;
+        $("#date").text(timeString);
+            setTimeout(printTime, 1000); // 1초마다 업데이트
+      }
+      printTime()
     </script>
   </body>
 </html>
