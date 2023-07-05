@@ -8,7 +8,8 @@
   backdrop-filter: blur(15px);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+  gap: 50px;
   width: 100%;
   overflow: hidden;
 }
@@ -33,4 +34,22 @@
   white-space: pre;
   line-height: 1.4;
   margin-right: 70px;
+}
+@media (max-width: 800px) {
+  #section2 {
+    display: block;
+  }
+  #section2 .sec2-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #section2 .sec2-img span {
+    width: 75vw;
+    height: 75vw;
+    border-radius: 0;
+  }
+  #section2 .sec2-text {
+    display: none;
+  }
 }

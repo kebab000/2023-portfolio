@@ -56,10 +56,19 @@
   .left {
     display: none;
   }
+  #section1 {
+    display: flex;
+  }
 
-  // .bg2 {
-  //   height: 70vh;
-  // }
+  #section1 .text .title {
+    font-size: 18vw;
+  }
+
+  #section1 .bg {
+    width: 200%;
+    left: 50%;
+    transform: translatex(-50%);
+  }
   .desc {
     display: none;
   }

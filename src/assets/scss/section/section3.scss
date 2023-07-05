@@ -282,3 +282,71 @@
   display: none;
   z-index: 9999;
 }
+@media (max-width: 800px) {
+  #section3 .sec-title {
+    font-size: 25vw;
+  }
+  .sec-pin .box {
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 2vw;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 60%;
+  }
+  .sec-pin .box span {
+    padding: 10px;
+  }
+  .sec-pin .box h3 {
+    font-size: 18px;
+    font-family: "ChosunNm";
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  .sec-pin .box p {
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .sec-pin .box .btn {
+    // display: flex;
+    // justify-content: right;
+    margin-left: 10px;
+  }
+  .sec-pin .box .btn a {
+    border: 1px solid #ff0000;
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #ff0000;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+  }
+  .sec-pin .box .qr {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    margin-left: 15px;
+  }
+  .sec-pin .mockup {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 65vw;
+    z-index: -1;
+  }
+  .sec-pin .mockup2 {
+    top: 50%;
+    // right: 30%;
+  }
+}
