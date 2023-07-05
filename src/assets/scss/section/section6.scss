@@ -16,6 +16,8 @@ body {
     top: 35%;
     left: 0;
     z-index: 1;
+    opacity: 0;
+    transition: all 0.7s;
     div {
       color: #fff;
       font-size: 9vw;
@@ -406,4 +408,405 @@ body {
   to {
     transform: translate(-5vw);
   }
+}
+@media (max-width: 480px) {
+  // body {
+  //   margin: 0;
+  //   padding: 0;
+  //   overflow-x: hidden;
+  // }
+
+  // #section6 {
+  //   width: 100%;
+  //   height: 300vh;
+  //   overflow: hidden;
+  //   position: relative;
+  //   display: flex;
+
+  //   .line {
+  //     position: fixed;
+  //     top: 15%;
+  //     left: 0;
+  //     z-index: 1;
+  //     // opacity: 0;
+  //     transition: all 0.7s;
+  //     div {
+  //       color: #fff;
+  //       font-size: 15vw;
+  //       font-weight: 100;
+  //       text-transform: uppercase;
+  //       white-space: nowrap;
+  //       overflow: hidden;
+  //       text-overflow: ellipsis;
+  //     }
+  //     .line1 {
+  //       animation: pass5 60s linear infinite;
+  //     }
+  //     .line2 {
+  //       animation: pass6 60s linear infinite;
+  //     }
+  //   }
+  // }
+
+  // .barcode {
+  //   position: relative;
+  //   transition: all 0.5s;
+  //   &::before {
+  //     content: "";
+  //     position: absolute;
+  //     left: -3.5px;
+  //     top: -4px;
+  //     width: 156px;
+  //     height: 40px;
+  //     transition: all 0.7s;
+  //     border: 1px solid #ffffff;
+  //   }
+  //   &:hover::before {
+  //     border: 1px solid #ff0000;
+  //   }
+  // }
+
+  //   .section {
+  //     width: 100%;
+  //     height: 300vh;
+  //     display: flex;
+  //     align-items: center;
+  //     // justify-content: center;
+  //     background-color: #000000;
+  //     position: relative;
+  //   }
+  //   .box__wrap {
+  //     border: 1px solid #e5e5e5;
+  //     position: fixed;
+  //     left: 0;
+  //     top: 50vh;
+  //     opacity: 0;
+  //     // transform: translate(-50%, -50%);
+  //     width: 90vw;
+  //     height: 70vw;
+  //     border-radius: 10px;
+  //     background-color: #e5e5e5;
+  //     z-index: 2;
+  //     // position: relative;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //   }
+
+  //   .game__wrap {
+  //     position: absolute;
+  //     margin: 10px;
+  //     width: 95%;
+  //     height: 95%;
+  //     color: white;
+
+  //     // position: relative;
+  //     .game__img {
+  //       width: 100%;
+  //       height: 100%;
+
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //         object-fit: cover;
+  //       }
+  //     }
+  //     .game__desc {
+  //       margin-left: 20px;
+  //       color: #fff;
+  //       display: flex;
+  //       position: absolute;
+  //       top: 0;
+  //       left: 103%;
+  //       .game__info {
+  //         .barcode {
+  //           font-family: "Libre Barcode 128";
+  //           font-size: 50px;
+  //         }
+  //         .game__ingredient {
+  //           margin-right: 20px;
+  //           div {
+  //             // width: 40%;
+  //             gap: 10px;
+  //             display: flex;
+  //             justify-content: space-between;
+  //           }
+  //           .game__code {
+  //             margin-top: 20px;
+
+  //             :hover {
+  //               border: 1px solid #ffffff;
+  //             }
+  //           }
+  //         }
+  //       }
+  //       .game__text {
+  //         display: none;
+  //         .game__text__header {
+  //           margin-bottom: 0px;
+  //           font-size: 22px;
+  //         }
+
+  //         .game__text__inner {
+  //           font-family: "GmarketSans";
+  //           font-size: 14px;
+  //           white-space: pre-line;
+  //           line-height: 1.7;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   //parallax 이펙트
+  //   .parallax__wrap {
+  //     position: absolute;
+  //     margin-top: 5px;
+  //     width: 95%;
+  //     height: 95%;
+  //     color: white;
+
+  //     // position: relative;
+  //     .parallax__img {
+  //       width: 100%;
+  //       height: 100%;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //         object-fit: cover;
+  //       }
+  //     }
+  //     .parallax__desc {
+  //       margin-left: 20px;
+  //       color: #fff;
+  //       display: flex;
+  //       position: absolute;
+  //       bottom: -5%;
+  //       left: 103%;
+  //       .parallax__info {
+  //         .barcode {
+  //           font-family: "Libre Barcode 128";
+  //           font-size: 50px;
+  //           &::before {
+  //             width: 186px;
+  //           }
+  //         }
+  //         .parallax__ingredient {
+  //           margin-right: 20px;
+  //           div {
+  //             // width: 40%;
+  //             gap: 10px;
+  //             display: flex;
+  //             justify-content: space-between;
+  //           }
+  //           .parallax__code {
+  //             margin-top: 20px;
+  //           }
+  //         }
+  //       }
+  //       .parallax__text {
+  //         display: none;
+  //         width: 420px;
+  //         margin-left: 5px;
+  //         .parallax__text__header {
+  //           font-size: 22px;
+  //         }
+
+  //         .parallax__text__inner {
+  //           font-family: "GmarketSans";
+  //           font-size: 14px;
+  //           line-height: 1.7;
+  //           white-space: pre-line;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .quiz__wrap {
+  //     position: absolute;
+  //     margin: 10px;
+  //     width: 95%;
+  //     height: 95%;
+  //     color: white;
+
+  //     // position: relative;
+  //     .quiz__img {
+  //       width: 100%;
+  //       height: 100%;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //         object-fit: cover;
+  //       }
+  //     }
+  //     .quiz__desc {
+  //       margin-left: 20px;
+  //       margin-right: 20px;
+  //       color: #fff;
+  //       display: flex;
+  //       position: absolute;
+  //       top: 0;
+  //       right: 103%;
+  //       text-align: right;
+  //       .quiz__info {
+  //         .barcode {
+  //           font-family: "Libre Barcode 128";
+  //           font-size: 50px;
+  //         }
+  //         .quiz__ingredient {
+  //           margin-left: 20px;
+  //           div {
+  //             // width: 40%;
+  //             gap: 10px;
+  //             display: flex;
+  //             justify-content: space-between;
+  //           }
+  //           .quiz__code {
+  //             margin-top: 20px;
+  //           }
+  //         }
+  //       }
+  //       .quiz__text {
+  //         display: none;
+  //         width: 400px;
+  //         margin-right: 5px;
+  //         .quiz__text__header {
+  //           margin-bottom: 10px;
+  //           font-size: 22px;
+  //           margin-bottom: 0;
+  //         }
+
+  //         .quiz__text__inner {
+  //           font-family: "GmarketSans";
+  //           font-size: 14px;
+  //           line-height: 1.7;
+  //           white-space: pre-line;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .mouse__wrap {
+  //     position: absolute;
+  //     margin-top: 5px;
+  //     width: 95%;
+  //     height: 95%;
+  //     color: white;
+
+  //     // position: relative;
+  //     .mouse__img {
+  //       width: 100%;
+  //       height: 100%;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //         object-fit: cover;
+  //       }
+  //     }
+  //     .mouse__desc {
+  //       // margin-left: 20px;
+  //       color: #fff;
+  //       display: flex;
+  //       position: absolute;
+  //       bottom: -45%;
+  //       left: -1%;
+  //       .mouse__info {
+  //         .barcode {
+  //           font-family: "Libre Barcode 128";
+  //           font-size: 50px;
+  //           &::before {
+  //             width: 169px;
+  //           }
+  //         }
+  //         .mouse__ingredient {
+  //           margin-right: 20px;
+  //           div {
+  //             // width: 40%;
+  //             gap: 10px;
+  //             display: flex;
+  //             justify-content: space-between;
+  //           }
+  //           .mouse__code {
+  //             margin-top: 20px;
+  //           }
+  //         }
+  //       }
+  //       .mouse__text {
+  //         display: none;
+  //         .mouse__text__header {
+  //           margin-bottom: 10px;
+  //           font-size: 22px;
+  //           margin-bottom: 0;
+  //         }
+
+  //         .mouse__text__inner {
+  //           font-family: "GmarketSans";
+  //           font-size: 14px;
+  //           line-height: 1.7;
+  //           white-space: pre-line;
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .slider__wrap {
+  //     position: absolute;
+  //     margin: 10px;
+  //     width: 95%;
+  //     height: 95%;
+  //     color: white;
+
+  //     // position: relative;
+  //     .slider__img {
+  //       width: 100%;
+  //       height: 100%;
+  //       img {
+  //         width: 100%;
+  //         height: 100%;
+  //         object-fit: cover;
+  //       }
+  //     }
+  //     .slider__desc {
+  //       margin-left: 20px;
+  //       color: #fff;
+  //       display: flex;
+  //       position: absolute;
+  //       top: 0;
+  //       left: 103%;
+  //       .slider__info {
+  //         .barcode {
+  //           font-family: "Libre Barcode 128";
+  //           font-size: 50px;
+  //           &::before {
+  //             width: 169px;
+  //           }
+  //         }
+  //         .slider__ingredient {
+  //           margin-right: 20px;
+  //           div {
+  //             // width: 40%;
+  //             gap: 10px;
+  //             display: flex;
+  //             justify-content: space-between;
+  //           }
+  //           .slider__code {
+  //             margin-top: 20px;
+  //           }
+  //         }
+  //       }
+  //       .slider__text {
+  //         display: none;
+  //         width: 400px;
+  //         margin-left: 5px;
+  //         .slider__text__header {
+  //           margin-bottom: 10px;
+  //           font-size: 22px;
+  //           margin-bottom: 0px;
+  //         }
+
+  //         .slider__text__inner {
+  //           font-family: "GmarketSans";
+  //           font-size: 14px;
+  //           line-height: 1.7;
+  //           // word-break: keep-all;
+  //           white-space: pre-line;
+  //         }
+  //       }
+  //     }
+  //   }
 }

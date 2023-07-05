@@ -283,6 +283,9 @@
   z-index: 9999;
 }
 @media (max-width: 480px) {
+  #section5 {
+    height: 150vh;
+  }
   #section3 {
     padding: 10vh 0;
   }

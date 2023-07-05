@@ -38,6 +38,7 @@
 @media (max-width: 480px) {
   #section2 {
     display: block;
+    backdrop-filter: blur(15px);
   }
   #section2 .sec2-img {
     width: 100%;

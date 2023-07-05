@@ -227,15 +227,11 @@ ScrollTrigger.matchMedia({
   "(max-width: 480px)": function () {
     // console.log("768px");
     window.addEventListener("scroll", () => {
-      scrollTop =
-        window.pageYOffset ||
-        window.scrollY ||
-        document.documentElement.scrollTop;
+      scrollTop = window.scrollY || document.documentElement.scrollTop;
       scrollLayout = scrollTop * 0.5;
 
       siteCount.innerHTML = count1;
       phpCount.innerHTML = count2;
-
       //info
       document.querySelector(".scroll span").innerHTML = parseInt(scrollTop);
 
@@ -263,8 +259,10 @@ ScrollTrigger.matchMedia({
         document.querySelector("#section1 .text .t2").innerHTML = "PORTFOLIO";
         document.querySelector("#section1 .bg2").style.display = "none";
         document.querySelector("#section1 .bg").style.display = "block";
+        document.querySelector("#section1 .text .desc").style.display = "none";
+        document.querySelector("#section1").style.alignItems = "center";
       }
-      if (scrollTop > 22500) {
+      if (scrollTop > 10900) {
         document.querySelector("#section1 .bg2").style.display = "none";
         document.querySelector("#section1 .bg").style.display = "block";
         document.querySelector("#section1 .text .d3").innerHTML = "";
