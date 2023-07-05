@@ -279,12 +279,18 @@
   background-color: #eb0404;
   width: 100px;
   height: 50px;
-  display: none;
+  // display: none;
   z-index: 9999;
 }
-@media (max-width: 800px) {
+@media (max-width: 480px) {
+  #section3 {
+    padding: 10vh 0;
+  }
   #section3 .sec-title {
     font-size: 25vw;
+  }
+  .sec-pin > div {
+    height: 70vh !important;
   }
   .sec-pin .box {
     border: 1px solid #000;
@@ -295,18 +301,24 @@
     top: 0;
     transform: translateX(-50%);
     width: 60%;
-    height: 60%;
+    height: 50%;
+    text-align: left;
   }
   .sec-pin .box span {
     padding: 10px;
   }
   .sec-pin .box h3 {
-    font-size: 18px;
+    font-size: 4.2vw;
     font-family: "ChosunNm";
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .sec-pin .box p {
+    font-size: 3.5vw;
+    line-height: 1.4;
     padding: 0 10px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -330,23 +342,19 @@
   }
   .sec-pin .box .qr {
     display: inline-block;
-    width: 100px;
+    width: 20vw;
     border: 1px solid #000;
     border-radius: 10px;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 0;
     margin-left: 15px;
   }
   .sec-pin .mockup {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 30%;
     width: 65vw;
     z-index: -1;
-  }
-  .sec-pin .mockup2 {
-    top: 50%;
-    // right: 30%;
   }
 }

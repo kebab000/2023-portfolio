@@ -1,88 +1,170 @@
 #section4 {
+  position: relative;
+  z-index: -10;
+  background-color: #000;
+  width: 100%;
+  height: 3500px;
+  padding-top: 500px;
+  //  img {
+  //     // filter: grayscale(100%)
+  //  }
+  .my__sign {
+    width: 40vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    // z-index: -1;
+    transition: all 1s;
+  }
+  .img1 {
+    position: absolute;
+    top: 90vh;
+    left: 40vh;
+    z-index: -1;
+
+    img {
+      width: 300px;
+      height: 400px;
+    }
+  }
+  .img2 {
+    position: absolute;
+    z-index: -1;
+    top: 98vh;
+    right: 25vh;
+    img {
+      width: 300px;
+      height: 450px;
+    }
+  }
+  .img3 {
+    position: absolute;
+    z-index: -1;
+    top: 145vh;
+    left: 17vh;
+    img {
+      width: 250px;
+    }
+  }
+  .img4 {
+    position: absolute;
+    z-index: -1;
+    top: 165vh;
+    right: 18vw;
+    img {
+      width: 300px;
+    }
+  }
+  .img5 {
+    position: absolute;
+    z-index: -1;
+    top: 185vh;
+    left: 45vh;
+    img {
+      width: 450px;
+    }
+  }
+  .img6 {
+    position: absolute;
+    z-index: -1;
+    top: 230vh;
+    right: 15vh;
+    img {
+      width: 480px;
+    }
+  }
+  .img7 {
+    position: absolute;
+    z-index: -1;
+    top: 255vh;
+    left: 30vh;
+    img {
+      width: 400px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #section4 {
+    padding-top: 10vh;
     position: relative;
-    z-index: -10;
-    background-color: #000;
-    width: 100%;
-    height: 3500px;
-    padding-top: 500px;
-//  img {
-//     // filter: grayscale(100%)
-//  }
     .my__sign {
-        width: 40vw;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        opacity: 0;
-        // z-index: -1;
-        transition: all 1s;
+      width: 40vw;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      // z-index: -1;
+      transition: all 1s;
     }
-    .img1{
-        position: absolute;
-        top: 90vh;
-        left: 40vh;
-        z-index: -1;
+    .img1 {
+      position: absolute;
+      top: 90vh;
+      left: 40vh;
+      z-index: -1;
 
-        img{
-            width: 300px;
-            height: 400px;
-        }
+      img {
+        width: 300px;
+        height: 400px;
+      }
     }
-    .img2{
-        position: absolute;
-        z-index: -1;
-        top: 98vh;
-        right: 25vh;
-        img{
-            width: 300px;
-            height: 450px;
-        }
+    .img2 {
+      position: absolute;
+      z-index: -1;
+      top: 98vh;
+      right: 25vh;
+      img {
+        width: 300px;
+        height: 450px;
+      }
     }
-    .img3{
-        position: absolute;
-        z-index: -1;
-        top: 145vh;
-        left: 17vh;
-        img{
-            width: 250px;
-        }
+    .img3 {
+      position: absolute;
+      z-index: -1;
+      top: 145vh;
+      left: 17vh;
+      img {
+        width: 250px;
+      }
     }
-    .img4{
-        position: absolute;
-        z-index: -1;
-        top: 165vh;
-        right: 18vw;
-        img{
-            width: 300px;
-        }
+    .img4 {
+      position: absolute;
+      z-index: -1;
+      top: 165vh;
+      right: 18vw;
+      img {
+        width: 300px;
+      }
     }
-    .img5{
-        position: absolute;
-        z-index: -1;
-        top: 185vh;
-        left: 45vh;
-        img{
-            width: 450px;
-        }
+    .img5 {
+      position: absolute;
+      z-index: -1;
+      top: 185vh;
+      left: 45vh;
+      img {
+        width: 450px;
+      }
     }
-    .img6{
-        position: absolute;
-        z-index: -1;
-        top: 230vh;
-        right: 15vh;
-        img{
-            width: 480px;
-        }
+    .img6 {
+      position: absolute;
+      z-index: -1;
+      top: 230vh;
+      right: 15vh;
+      img {
+        width: 480px;
+      }
     }
-    .img7{
-        position: absolute;
-        z-index: -1;
-        top: 255vh;
-        left: 30vh;
-        img{
-            width: 400px;
-        }
+    .img7 {
+      position: absolute;
+      z-index: -1;
+      top: 255vh;
+      left: 30vh;
+      img {
+        width: 400px;
+      }
     }
-
+  }
 }
