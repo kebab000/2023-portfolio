@@ -90,10 +90,11 @@
   #section4 {
     padding-top: 10vh;
     position: relative;
+    height: 350vh;
     .my__sign {
-      width: 40vw;
+      width: 50vw;
       position: fixed;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
       opacity: 0;
@@ -102,10 +103,9 @@
     }
     .img1 {
       position: absolute;
-      top: 90vh;
-      left: 40vh;
+      top: 10vh;
+      left: -10vw;
       z-index: -1;
-
       img {
         width: 300px;
         height: 400px;
@@ -114,8 +114,8 @@
     .img2 {
       position: absolute;
       z-index: -1;
-      top: 98vh;
-      right: 25vh;
+      top: 50vh;
+      left: 15vh;
       img {
         width: 300px;
         height: 450px;
@@ -124,8 +124,8 @@
     .img3 {
       position: absolute;
       z-index: -1;
-      top: 145vh;
-      left: 17vh;
+      top: 90vh;
+      left: -5vw;
       img {
         width: 250px;
       }
@@ -133,8 +133,8 @@
     .img4 {
       position: absolute;
       z-index: -1;
-      top: 165vh;
-      right: 18vw;
+      top: 125vh;
+      right: 0vw;
       img {
         width: 300px;
       }
@@ -142,8 +142,8 @@
     .img5 {
       position: absolute;
       z-index: -1;
-      top: 185vh;
-      left: 45vh;
+      top: 165vh;
+      left: -15vh;
       img {
         width: 450px;
       }
@@ -151,8 +151,8 @@
     .img6 {
       position: absolute;
       z-index: -1;
-      top: 230vh;
-      right: 15vh;
+      top: 200vh;
+      right: -15vh;
       img {
         width: 480px;
       }
@@ -160,8 +160,8 @@
     .img7 {
       position: absolute;
       z-index: -1;
-      top: 255vh;
-      left: 30vh;
+      top: 250vh;
+      left: 0vh;
       img {
         width: 400px;
       }

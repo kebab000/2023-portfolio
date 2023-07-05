@@ -346,7 +346,7 @@ ScrollTrigger.matchMedia({
     });
   },
   //mobile
-  "(max-width: 767px)": function () {
+  "(max-width: 480px)": function () {
     // console.log("768px");
   },
 });

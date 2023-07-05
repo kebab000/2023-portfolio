@@ -46,8 +46,8 @@ ScrollTrigger.matchMedia({
     const section4Img = gsap.utils.toArray("#section4 img");
   },
   //mobile
-  "(max-width: 767px)": function () {
-    // console.log("768px");
+  "(max-width: 480px)": function () {
+    // console.log("480px");
     let scrollTop3 = 0;
     window.addEventListener("scroll", () => {
       scrollTop3 =
@@ -55,8 +55,14 @@ ScrollTrigger.matchMedia({
         window.scrollY ||
         document.documentElement.scrollTop;
 
-      if (scrollTop3 > 6300) {
+      if (scrollTop3 > 5500) {
         document.querySelector("#section4 .my__sign").style.opacity = "1";
+      }
+      if (scrollTop3 > 8000) {
+        document.querySelector("#section4 .my__sign").style.opacity = "0";
+      }
+      if (scrollTop3 < 5500) {
+        document.querySelector("#section4 .my__sign").style.opacity = "0";
       }
     });
   },
