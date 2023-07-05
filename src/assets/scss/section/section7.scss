@@ -63,42 +63,65 @@
   }
 }
 @media (max-width: 480px) {
-  .section7__center {
-    padding: 30px;
-    width: 57%;
-    margin-left: 20%;
-    text-align: center;
-    .section7__header {
-      padding-top: 50px;
+  #section7 {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    .section7__center {
+      margin: 0;
+      padding: 30px;
+      width: 100vw;
       display: flex;
-      justify-content: space-between;
-      font-size: 18px;
-      font-weight: 500;
-      margin-bottom: 100px;
-      .section7__header__right {
+      flex-wrap: wrap;
+      justify-content: center;
+      .section7__header {
+        margin: 0;
+        width: 100vw;
         display: flex;
-        justify-content: space-between;
-        width: 15%;
-        z-index: 9999;
+        flex-wrap: wrap;
+        justify-content: center;
+        // align-items: flex-end;
+        padding-top: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        .section7__header__left {
+          width: 100vw;
+          display: inline-block;
+          margin-bottom: 5px;
+          font-size: 22px;
+
+          span {
+            width: 100%;
+          }
+        }
+        .section7__header__right {
+          display: none;
+        }
       }
-    }
-    .thx1 {
-      font-size: 9.5vw;
-      font-weight: 100;
-    }
-    .thx2 {
-      font-size: 9.5vw;
-      font-weight: 100;
-      padding-bottom: 9vh;
-    }
-    .contact {
-      font-size: 9.2vw;
-      font-weight: 100;
-      border: 2px solid #000000;
-      border-radius: 100px;
-      &:hover {
-        background-color: #000;
-        color: #e5e5e5;
+      .section7__main {
+        .div {
+          font-weight: 100;
+        }
+        .thx1 {
+          font-size: 15vw;
+          padding-bottom: 1vh;
+        }
+        .thx2 {
+          font-size: 15vw;
+          padding-bottom: 9vh;
+        }
+        .contact {
+          border: 1px solid #000000;
+          border-radius: 100px;
+          width: 80vw;
+          &:hover {
+            background-color: #000;
+            color: #e5e5e5;
+          }
+        }
       }
     }
   }
