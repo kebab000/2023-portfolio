@@ -139,3 +139,9 @@
 #ticket.active12 {
   transform: translateY(0px);
 }
+
+@media (max-width: 800px) {
+  #ticket {
+    display: none;
+  }
+}
