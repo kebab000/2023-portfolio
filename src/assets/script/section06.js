@@ -293,7 +293,7 @@ ScrollTrigger.matchMedia({
         scrollTop6 - document.querySelector("#section6").offsetTop;
       console.log(section6Scroll / 2);
       document.querySelector("#section6 .box__wrap").style.transform =
-        "translateX(" + -section6Scroll / 2 + "px)";
+        "translateX(" + (-section6Scroll + 300) / 2 + "px)";
     });
   },
 });

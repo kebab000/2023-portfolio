@@ -70,7 +70,7 @@ ScrollTrigger.matchMedia({
       if (scrollTop3 > 10300) {
         document.querySelector("#section6 .section").style.opacity = "1";
       }
-      if (scrollTop3 > 12600) {
+      if (scrollTop3 > 12880) {
         document.querySelector("#section6 .section").style.opacity = "0";
       }
     });
