@@ -57,12 +57,21 @@ ScrollTrigger.matchMedia({
 
       if (scrollTop3 > 5500) {
         document.querySelector("#section4 .my__sign").style.opacity = "1";
+        document.querySelector("#section6 .section").style.opacity = "1";
       }
       if (scrollTop3 > 8000) {
         document.querySelector("#section4 .my__sign").style.opacity = "0";
+        document.querySelector("#section6 .section").style.opacity = "0";
       }
       if (scrollTop3 < 5500) {
         document.querySelector("#section4 .my__sign").style.opacity = "0";
+        document.querySelector("#section6 .section").style.opacity = "0";
+      }
+      if (scrollTop3 > 10300) {
+        document.querySelector("#section6 .section").style.opacity = "1";
+      }
+      if (scrollTop3 > 12600) {
+        document.querySelector("#section6 .section").style.opacity = "0";
       }
     });
 

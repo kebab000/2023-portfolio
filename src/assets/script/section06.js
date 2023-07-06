@@ -287,13 +287,13 @@ ScrollTrigger.matchMedia({
   //mobile
   "(max-width: 480px)": function () {
     // console.log("480px");
-    // if (scrollTop3 > 10500) {
-    //   // document.querySelector("#section6 .box__wrap").style.opacity = "1";
-    //   // document.querySelector("#section6 .line").style.opacity = "1";
-    // }
-    // if (scrollTop3 < 10500) {
-    //   // document.querySelector("#section6 .box__wrap").style.opacity = "0";
-    //   // document.querySelector("#section6 .line").style.opacity = "0";
-    // }
+    window.addEventListener("scroll", () => {
+      let scrollTop6 = window.scrollY || document.documentElement.scrollTop;
+      let section6Scroll =
+        scrollTop6 - document.querySelector("#section6").offsetTop;
+      console.log(section6Scroll / 2);
+      document.querySelector("#section6 .box__wrap").style.transform =
+        "translateX(" + -section6Scroll / 2 + "px)";
+    });
   },
 });
