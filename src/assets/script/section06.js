@@ -1,20 +1,20 @@
-// const sections = gsap.utils.toArray(".section");
-// const section6Width = document.querySelector("#section6").offsetWidth;
-// console.log(section6Width);
-// let scrollTween = gsap.to("#section6", {
-//   x: -(document.querySelector("#section6").offsetWidth - window.innerWidth),
-//   ease: "none",
-//   scrollTrigger: {
-//     trigger: "#section6",
-//     pin: true,
-//     anticipatePin: 1,
-//     scrub: 1,
-//     end: `+=${section6Width}`,
-//   },
-// });
 ScrollTrigger.matchMedia({
   //desktop
   "(min-width: 768px)": function () {
+    const sections = gsap.utils.toArray(".section");
+    const section6Width = document.querySelector("#section6").offsetWidth;
+    console.log(section6Width);
+    let scrollTween = gsap.to("#section6", {
+      x: -(document.querySelector("#section6").offsetWidth - window.innerWidth),
+      ease: "none",
+      scrollTrigger: {
+        trigger: "#section6",
+        pin: true,
+        anticipatePin: 1,
+        scrub: 1,
+        end: `+=${section6Width}`,
+      },
+    });
     // section3-section1
     gsap.set("#section6 .section .box__wrap", {
       width: "10vw",
