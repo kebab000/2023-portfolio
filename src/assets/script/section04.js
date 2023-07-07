@@ -67,7 +67,7 @@ ScrollTrigger.matchMedia({
         document.querySelector("#section4 .my__sign").style.opacity = "0";
         document.querySelector("#section6 .section").style.opacity = "0";
       }
-      if (scrollTop3 > 10300) {
+      if (scrollTop3 > 9800) {
         document.querySelector("#section6 .section").style.opacity = "1";
       }
       if (scrollTop3 > 12880) {
