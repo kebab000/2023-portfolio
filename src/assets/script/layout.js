@@ -222,7 +222,7 @@ ScrollTrigger.matchMedia({
     });
   },
   //pad
-  "(max-width: 768px)": function () {},
+  "(max-width: 481px)": function () {},
   // phone
   "(max-width: 480px)": function () {
     // console.log("768px");

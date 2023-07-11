@@ -1,6 +1,6 @@
 ScrollTrigger.matchMedia({
   //desktop
-  "(min-width: 768px)": function () {
+  "(min-width: 481px)": function () {
     const sections = gsap.utils.toArray(".section");
     const section6Width = document.querySelector("#section6").offsetWidth;
     console.log(section6Width);

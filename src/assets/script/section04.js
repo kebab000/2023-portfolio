@@ -1,6 +1,6 @@
 ScrollTrigger.matchMedia({
   //desktop
-  "(min-width: 768px)": function () {
+  "(min-width: 481px)": function () {
     let scrollTop3 = 0;
     window.addEventListener("scroll", () => {
       scrollTop3 =

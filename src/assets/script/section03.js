@@ -1,6 +1,6 @@
 ScrollTrigger.matchMedia({
   //desktop
-  "(min-width: 768px)": function () {
+  "(min-width: 481px)": function () {
     // console.log("768px");
     // section3-section1
     gsap.set(".sec3-section1 .box", {
