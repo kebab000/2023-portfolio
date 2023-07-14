@@ -1,5 +1,6 @@
 // 새로고침시 맨위로
 window.onload = function () {
+  main.style.height = "100vh";
   setTimeout(function () {
     scrollTo(0, 0);
   }, 100);
@@ -8,7 +9,6 @@ const main = document.querySelector("#main");
 // 페이지 로딩 시간을 측정하고 페이지 시작
 window.addEventListener("load", measurePageLoadTime);
 function measurePageLoadTime() {
-  main.style.height = "100vh";
   var loadTime =
     window.performance.timing.domContentLoadedEventEnd -
     window.performance.timing.navigationStart;
