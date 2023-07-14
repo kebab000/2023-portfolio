@@ -1,11 +1,12 @@
 // 새로고침시 맨위로
+// const main = document.querySelector("#main");
 window.onload = function () {
-  main.style.height = "100vh";
+  // main.style.height = "100vh";
   setTimeout(function () {
     scrollTo(0, 0);
   }, 100);
 };
-const main = document.querySelector("#main");
+
 // 페이지 로딩 시간을 측정하고 페이지 시작
 window.addEventListener("load", measurePageLoadTime);
 function measurePageLoadTime() {
@@ -22,6 +23,7 @@ function measurePageLoadTime() {
     progress += increment;
     loadingTextElement.textContent = Math.round(progress) + "%";
     if (progress >= 100) {
+      main.style.height = "100%";
       clearInterval(intervalId);
       progress = 100; // 진행률(progress)을 100으로 제한
       loadingTextElement.textContent = Math.round(progress) + "%"; // 수치를 100%로 표시
@@ -36,7 +38,7 @@ function measurePageLoadTime() {
 }
 
 function startPage() {
-  main.style.height = "";
+
   document.querySelectorAll(".split").forEach((text) => {
     let theText = text.innerText;
     let newText = "";
