@@ -9,6 +9,8 @@
     width: 57%;
     margin-left: 20%;
     text-align: center;
+    font-family: 'Poppins';
+
     .section7__header {
       padding-top: 50px;
       display: flex;
@@ -16,27 +18,37 @@
       font-size: 18px;
       font-weight: 500;
       margin-bottom: 100px;
+      font-family: 'Poppins';
+
       .section7__header__right {
         display: flex;
         justify-content: space-between;
         width: 15%;
         z-index: 9999;
+        font-family: 'Poppins';
+
       }
     }
     .thx1 {
       font-size: 9.5vw;
       font-weight: 100;
+      font-family: 'Poppins';
+
     }
     .thx2 {
       font-size: 9.5vw;
       font-weight: 100;
       padding-bottom: 9vh;
+      font-family: 'Poppins';
+
     }
     .contact {
       font-size: 9.2vw;
       font-weight: 100;
       border: 2px solid #000000;
       border-radius: 100px;
+      font-family: 'Poppins';
+
       &:hover {
         background-color: #000;
         color: #e5e5e5;
@@ -106,19 +118,19 @@
         }
       }
       .section7__main {
+        
         .div {
           font-weight: 100;
-          font-family: 'Poppins';
         }
         .thx1 {
           font-size: 15vw;
           padding-bottom: 1vh;
-          font-family: 'Poppins';
+
         }
         .thx2 {
           font-size: 15vw;
           padding-bottom: 9vh;
-          font-family: 'Poppins';
+
         }
         .contact {
           font-size: 15vw;
@@ -127,6 +139,10 @@
           width: 80vw;
           padding: 20px 10px;
           font-family: 'Poppins';
+          a {
+            font-family: 'Poppins';
+            font-weight: 100;
+          }
           &:hover {
             background-color: #000;
             color: #e5e5e5;
