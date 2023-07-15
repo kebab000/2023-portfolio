@@ -88,3 +88,23 @@
   color: #fff;
   white-space: pre;
 }
+
+@media (max-width: 480px) {
+  #section2 {
+    display: block;
+    backdrop-filter: blur(15px);
+  }
+  #section2 .sec2-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #section2 .sec2-img span {
+    width: 75vw;
+    height: 75vw;
+    border-radius: 0;
+  }
+  #section2 .sec2-text {
+    display: none;
+  }
+}
