@@ -114,7 +114,7 @@ window.addEventListener("scroll", () => {
 
 ScrollTrigger.matchMedia({
   //desktop
-  "(min-width: 769px)": function () {
+  "(min-width: 480px)": function () {
     window.addEventListener("scroll", () => {
       scrollTop =
         window.pageYOffset ||
@@ -214,7 +214,7 @@ ScrollTrigger.matchMedia({
         document.querySelector(".right #ticket").classList.remove("active10");
         document.querySelector(".right #ticket").classList.add("active11");
       }
-      if (scrollTop > 39770) {
+      if (scrollTop > 39000) {
         document.querySelector(".right #ticket").classList.remove("active11");
         document.querySelector(".right #ticket").classList.add("active12");
         document.querySelector(".right #ticket").style.transition = "all 2.5s";
