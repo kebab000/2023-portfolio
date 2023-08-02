@@ -13,6 +13,17 @@ function measurePageLoadTime() {
   var loadTime =
     window.performance.timing.domContentLoadedEventEnd -
     window.performance.timing.navigationStart;
+
+  // window.performance.timing은 브라우저의 성능 측정 API인 "Performance Timing API"를 사용합니다.
+  // 이 API를 통해 웹 페이지가 로딩되는 데 걸리는 다양한 타이밍 정보에 접근할 수 있습니다.
+  // window.performance.timing.navigationStart는 현재 문서의 네비게이션이 시작된 시간을 나타냅니다.
+  // 즉, 웹 페이지가 로딩되기 시작한 시점을 나타냅니다.
+  // window.performance.timing.domContentLoadedEventEnd는 DOMContentLoaded 이벤트가 발생하여 DOM 트리를 완전히 구성하고 스크립트와 스타일시트 등의 외부 리소스를 모두 로드한 시점을 나타냅니다.
+  // 즉, 웹 페이지가 DOM 구성을 마치고 사용자에게 보여질 수 있는 상태가 되었을 때의 시점을 의미합니다.
+  // 따라서 loadTime 변수는 웹 페이지가 로딩되기 시작한 시점부터 DOM 구성이 완료된 시점까지의 시간을 밀리초 단위로 측정한 값입니다.
+  // 이 변수를 사용하면 웹 페이지의 로딩 성능을 파악하거나 최적화에 도움을 줄 수 있습니다.
+  // 예를 들어, 이 값을 서버에 전송하여 웹 페이지의 성능 지표를 수집하고 모니터링하는 등의 용도로 사용할 수 있습니다.
+
   // 로딩 화면 요소
   var loadingElement = document.getElementById("loading");
   var loadingTextElement = document.getElementById("loading-text");
@@ -38,7 +49,6 @@ function measurePageLoadTime() {
 }
 
 function startPage() {
-
   document.querySelectorAll(".split").forEach((text) => {
     let theText = text.innerText;
     let newText = "";

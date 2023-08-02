@@ -37,3 +37,11 @@
 #main {
   height: 100vh;
 }
+
+@media (max-width: 480px) {
+  #loading {
+    #loading-text {
+      font-size: 25vw;
+    }
+  }
+}
