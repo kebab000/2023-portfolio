@@ -6,6 +6,21 @@ const phpCount = document.querySelector(".php__count");
 let count1 = 4;
 let count2 = 2;
 
+
+
+// 영수증 시간
+function printTime() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth() + 1;
+  const date = now.getDate();
+  const timeString = `${year}/${month}/${date}`;
+  document.getElementById("date").textContent = timeString;
+  setTimeout(printTime, 1000); // 1초마다 업데이트
+}
+
+printTime();
+
 gsap.set(layout1, { autoAlpha: 1, y: -5100 });
 // gsap.set(layout2, { autoAlpha: 1, y: 535 });
 
@@ -113,7 +128,6 @@ ScrollTrigger.matchMedia({
 
     window.addEventListener("scroll", () => {
       scrollTop =
-        window.pageYOffset ||
         window.scrollY ||
         document.documentElement.scrollTop;
 

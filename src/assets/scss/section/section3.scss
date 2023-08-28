@@ -31,7 +31,6 @@
 
 .sec-pin > div {
   width: 100%;
-  height: 80vh;
 }
 .sec-pin .sec3-section1 {
   background-color: #e5e5e5;
@@ -41,19 +40,15 @@
 }
 .sec-pin .sec3-section3 {
   background-color: #e5e5e5;
-  height: 0vh;
 }
 .sec-pin .sec3-section4 {
   background-color: #e5e5e5;
-  height: 0vh;
 }
 .sec-pin .sec3-section5 {
   background-color: #e5e5e5;
-  height: 0vh;
 }
 .sec-pin .sec3-section6 {
   background-color: #e5e5e5;
-  height: 0vh;
 }
 
 .sec-pin .box {
@@ -185,11 +180,10 @@
   margin-top: 15px;
 }
 .sec-pin .box4 .mockup4 {
-  right: 30%;
-  bottom: -31%;
+  right: 25%;
+  top: 30%;
 }
 // box5
-
 .sec-pin .box5 {
   position: relative;
   left: 10%;
@@ -208,11 +202,11 @@
   margin-top: 20px;
 }
 .sec-pin .box5 .mockup5 {
-  left: 32%;
-  bottom: -30%;
+  left: 30%;
+  top: 30%;
 }
 
-// box4
+// box6
 .sec-pin .box6 {
   position: relative;
   left: 60%;
@@ -232,8 +226,8 @@
   margin-top: 10px;
 }
 .sec-pin .box6 .mockup6 {
-  right: 30%;
-  bottom: -35%;
+  right: 25%;
+  top: 35%;
 }
 
 #section4 {

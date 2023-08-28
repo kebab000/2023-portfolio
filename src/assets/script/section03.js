@@ -5,8 +5,8 @@ ScrollTrigger.matchMedia({
     // section3-section1
     gsap.set(".sec3-section1 .box", {
       autoAlpha: 1,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
     });
     gsap.set(".sec3-section1 .box span", { autoAlpha: 1 });
     gsap.set(".sec3-section1 .box h3", { autoAlpha: 0, y: 10 });
@@ -18,8 +18,8 @@ ScrollTrigger.matchMedia({
     const ani1 = gsap.timeline();
     ani1.to(".sec3-section1 .box", {
       duration: 0.5,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
       autoAlpha: 1,
     });
     ani1.to(".sec3-section1 .box span", { duration: 0.5, autoAlpha: 1 });
@@ -30,7 +30,7 @@ ScrollTrigger.matchMedia({
     ani1.to(".sec3-section1 .box", {
       duration: 0.5,
       width: "400px",
-      height: "10vw",
+      height: "130px",
     });
     ani1.to(".sec3-section1 .box", {
       duration: 0.5,
@@ -62,8 +62,10 @@ ScrollTrigger.matchMedia({
     // section3-section2
     gsap.set(".sec3-section2 .box", {
       autoAlpha: 1,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
+      y: -300
+
     });
     gsap.set(".sec3-section2 .box span", { autoAlpha: 1 });
     gsap.set(".sec3-section2 .box h3", { autoAlpha: 0, y: 10 });
@@ -75,25 +77,26 @@ ScrollTrigger.matchMedia({
     const ani2 = gsap.timeline();
     ani2.to(".sec3-section2 .box", {
       duration: 0,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
       autoAlpha: 1,
     });
+    // ani2.to(".sec3-section2 .box", { duration: 0.3, y: 300 });
     ani2.to(".sec3-section2 .box span", { duration: 0.5, autoAlpha: 1 });
     ani2.to(".sec3-section2 .box", { duration: 0.3, x: 200 });
-    ani2.to(".sec3-section2 .box", { duration: 0.3, y: -300 });
+    ani2.to(".sec3-section2 .box", { duration: 0.3, y: -400 });
     ani2.to(".sec3-section2 .box", { duration: 0.3, x: 0 });
     // ani2.to(".sec3-section2 .box",      {duration:0.3, y: -50})
     ani2.to(".sec3-section2 .box", {
       duration: 0.4,
       width: "400px",
-      height: "10vw",
+      height: "130px",
     });
     ani2.to(".sec3-section2 .box", {
       duration: 0.5,
       width: "400px",
       height: "500px",
-      y: -450,
+      y: -650,
     });
     ani2.to(".sec3-section2 .box h3", { duration: 0.5, autoAlpha: 1, y: 0 });
     ani2.to(".sec3-section2 .box p", { duration: 0.5, autoAlpha: 1, y: 0 });
@@ -119,8 +122,8 @@ ScrollTrigger.matchMedia({
     // section3-section3
     gsap.set(".sec3-section3 .box", {
       autoAlpha: 1,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
     });
     gsap.set(".sec3-section3 .box span", { autoAlpha: 1 });
     gsap.set(".sec3-section3 .box h3", { autoAlpha: 0, y: 10 });
@@ -132,8 +135,8 @@ ScrollTrigger.matchMedia({
     const ani3 = gsap.timeline();
     ani3.to(".sec3-section3 .box", {
       duration: 0.5,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
       autoAlpha: 1,
     });
     ani3.to(".sec3-section3 .box span", { duration: 0.5, autoAlpha: 1 });
@@ -143,13 +146,13 @@ ScrollTrigger.matchMedia({
     ani3.to(".sec3-section3 .box", { duration: 0.3, y: -150 });
     ani3.to(".sec3-section3 .box", {
       duration: 1.5,
-      width: "10vw",
+      width: "130px",
       height: "530px",
     });
     ani3.to(".sec3-section3 .box", {
       duration: 0.5,
       width: "400px",
-      height: "530px",
+      height: "500px",
     });
     ani3.to(".sec3-section3 .box h3", { duration: 0.5, autoAlpha: 1, y: 0 });
     ani3.to(".sec3-section3 .box p", { duration: 0.5, autoAlpha: 1, y: 0 });
@@ -175,8 +178,8 @@ ScrollTrigger.matchMedia({
     // section3-section4
     gsap.set(".sec3-section4 .box", {
       autoAlpha: 1,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
     });
     gsap.set(".sec3-section4 .box span", { autoAlpha: 1 });
     gsap.set(".sec3-section4 .box h3", { autoAlpha: 0, y: 10 });
@@ -188,8 +191,8 @@ ScrollTrigger.matchMedia({
     const ani4 = gsap.timeline();
     ani4.to(".sec3-section4 .box", {
       duration: 0,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
       autoAlpha: 1,
     });
     ani4.to(".sec3-section4 .box span", { duration: 0.5, autoAlpha: 1 });
@@ -200,12 +203,12 @@ ScrollTrigger.matchMedia({
     ani4.to(".sec3-section4 .box", {
       duration: 0.4,
       width: "400px",
-      height: "10vw",
+      height: "130px",
     });
     ani4.to(".sec3-section4 .box", {
       duration: 0.5,
       width: "400px",
-      height: "515px",
+      height: "500px",
     });
     ani4.to(".sec3-section4 .box h3", { duration: 0.5, autoAlpha: 1, y: 0 });
     ani4.to(".sec3-section4 .box p", { duration: 0.5, autoAlpha: 1, y: 0 });
@@ -231,8 +234,8 @@ ScrollTrigger.matchMedia({
     // section3-section5
     gsap.set(".sec3-section5 .box", {
       autoAlpha: 1,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
     });
     gsap.set(".sec3-section5 .box span", { autoAlpha: 1 });
     gsap.set(".sec3-section5 .box h3", { autoAlpha: 0, y: 10 });
@@ -244,8 +247,8 @@ ScrollTrigger.matchMedia({
     const ani5 = gsap.timeline();
     ani5.to(".sec3-section5 .box", {
       duration: 0.5,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
       autoAlpha: 1,
     });
     ani5.to(".sec3-section5 .box span", { duration: 0.3, autoAlpha: 1 });
@@ -256,12 +259,12 @@ ScrollTrigger.matchMedia({
     ani5.to(".sec3-section5 .box", { duration: 0.3, y: 0 });
     ani5.to(".sec3-section5 .box", {
       duration: 0.5,
-      width: "25vw",
-      height: "10vw",
+      width: "400px",
+      height: "130px",
     });
     ani5.to(".sec3-section5 .box", {
       duration: 0.5,
-      width: "25vw",
+      width: "400px",
       height: "500px",
     });
     ani5.to(".sec3-section5 .box h3", { duration: 0.5, autoAlpha: 1, y: 0 });
@@ -291,8 +294,8 @@ ScrollTrigger.matchMedia({
     // section3-section6
     gsap.set(".sec3-section6 .box", {
       autoAlpha: 1,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
     });
     gsap.set(".sec3-section6 .box span", { autoAlpha: 1 });
     gsap.set(".sec3-section6 .box h3", { autoAlpha: 0, y: 10 });
@@ -304,8 +307,8 @@ ScrollTrigger.matchMedia({
     const ani6 = gsap.timeline();
     ani6.to(".sec3-section6 .box", {
       duration: 0,
-      width: "10vw",
-      height: "10vw",
+      width: "130px",
+      height: "130px",
       autoAlpha: 1,
       x: 0,
     });
@@ -317,12 +320,12 @@ ScrollTrigger.matchMedia({
     ani6.to(".sec3-section6 .box", {
       duration: 0.4,
       width: "400px",
-      height: "10vw",
+      height: "130px",
     });
     ani6.to(".sec3-section6 .box", {
       duration: 0.5,
       width: "400px",
-      height: "525px",
+      height: "500px",
     });
     ani6.to(".sec3-section6 .box h3", { duration: 0.5, autoAlpha: 1, y: 0 });
     ani6.to(".sec3-section6 .box p", { duration: 0.5, autoAlpha: 1, y: 0 });

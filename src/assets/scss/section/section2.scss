@@ -32,11 +32,27 @@
   color: #fff;
   white-space: pre;
 }
-
+@media (max-width: 1023px) {
+  #section2 {
+    display: block;
+    
+    .sec2-img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      span {
+        width: 50vw;
+        height: 50vw;
+      }  
+    }
+    .sec2-text {
+      margin-top: 30px;
+    }
+  }
+}
 @media (max-width: 480px) {
   #section2 {
     display: block;
-    backdrop-filter: blur(15px);
   }
   #section2 .sec2-img {
     width: 100%;
