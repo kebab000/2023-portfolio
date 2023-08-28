@@ -131,46 +131,46 @@ ScrollTrigger.matchMedia({
         window.scrollY ||
         document.documentElement.scrollTop;
 
-      if (scrollTop > 6550) {
+      if (scrollTop > 6300) {
         document.querySelector(".right #ticket").classList.add("active1");
       }
-      if (scrollTop > 9320) {
+      if (scrollTop > 8700) {
         document.querySelector(".right #ticket").classList.remove("active1");
         document.querySelector(".right #ticket").classList.add("active2");
       }
-      if (scrollTop > 13130) {
+      if (scrollTop > 11750) {
         document.querySelector(".right #ticket").classList.remove("active2");
         document.querySelector(".right #ticket").classList.add("active3");
       }
-      if (scrollTop > 17000) {
+      if (scrollTop > 15900) {
         document.querySelector(".right #ticket").classList.remove("active3");
         document.querySelector(".right #ticket").classList.add("active4");
       }
-      if (scrollTop > 20230) {
+      if (scrollTop > 19300) {
         document.querySelector(".right #ticket").classList.remove("active4");
         document.querySelector(".right #ticket").classList.add("active5");
       }
-      if (scrollTop > 24100) {
+      if (scrollTop > 23150) {
         document.querySelector(".right #ticket").classList.remove("active5");
         document.querySelector(".right #ticket").classList.add("active6");
       }
-      if (scrollTop > 31950) {
+      if (scrollTop > 31200) {
         document.querySelector(".right #ticket").classList.remove("active6");
         document.querySelector(".right #ticket").classList.add("active7");
       }
-      if (scrollTop > 33920) {
+      if (scrollTop > 33200) {
         document.querySelector(".right #ticket").classList.remove("active7");
         document.querySelector(".right #ticket").classList.add("active8");
       }
-      if (scrollTop > 35595) {
+      if (scrollTop > 34800) {
         document.querySelector(".right #ticket").classList.remove("active8");
         document.querySelector(".right #ticket").classList.add("active9");
       }
-      if (scrollTop > 36800) {
+      if (scrollTop > 36000) {
         document.querySelector(".right #ticket").classList.remove("active9");
         document.querySelector(".right #ticket").classList.add("active10");
       }
-      if (scrollTop > 38590) {
+      if (scrollTop > 37550) {
         document.querySelector(".right #ticket").classList.remove("active10");
         document.querySelector(".right #ticket").classList.add("active11");
       }
