@@ -349,8 +349,8 @@
   }
   .sec-pin .mockup {
     position: absolute;
-    top: 55%;
-    left: 30%;
+    top: 55% !important;
+    left: 30% !important;
     width: 65vw;
     z-index: -1;
   }

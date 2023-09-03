@@ -14,7 +14,11 @@ function printTime() {
   const year = now.getFullYear();
   const month = now.getMonth() + 1;
   const date = now.getDate();
-  const timeString = `${year}/${month}/${date}`;
+  if(month < 10){
+    const timeString = `${year}/0${month}/${date}`;
+  } else {
+    const timeString = `${year}/${month}/${date}`;
+  }
   document.getElementById("date").textContent = timeString;
   setTimeout(printTime, 1000); // 1초마다 업데이트
 }
