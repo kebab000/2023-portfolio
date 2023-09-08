@@ -1,3 +1,4 @@
+
 let scrollTop = 0;
 const layout1 = document.querySelector(".left .left__desc");
 const layout2 = document.querySelector(".right #ticket");
@@ -14,24 +15,27 @@ function printTime() {
   const year = now.getFullYear();
   const month = now.getMonth() + 1;
   const date = now.getDate();
-  if(month < 10){
-    const timeString = `${year}/0${month}/${date}`;
-  } else {
-    const timeString = `${year}/${month}/${date}`;
+  let timeString = 0;
+  if(month < 10 & date > 9){
+     timeString = `${year}/0${month}/${date}`;
+  } if (month < 10 & date < 10) {
+      timeString = `${year}/0${month}/0${date}`;
+  } if(month > 9 & date < 10) {
+    timeString = `${year}/${month}/0${date}`;
+  } if (month > 9 & date > 9) {
+    timeString = `${year}/${month}/${date}`;
   }
-  document.getElementById("date").textContent = timeString;
+  // document.getElementById("date").textContent = timeString;
+  document.querySelector("#date").innerHTML = timeString;
   setTimeout(printTime, 1000); // 1초마다 업데이트
 }
 
 printTime();
 
 gsap.set(layout1, { autoAlpha: 1, y: -5100 });
-// gsap.set(layout2, { autoAlpha: 1, y: 535 });
-
 let scrollLayout = 0;
 window.addEventListener("scroll", () => {
-  scrollTop =
-    window.pageYOffset || window.scrollY || document.documentElement.scrollTop;
+  scrollTop =window.scrollY || document.documentElement.scrollTop;
   scrollLayout = scrollTop * 0.5;
 
   siteCount.innerHTML = count1;
@@ -79,12 +83,9 @@ window.addEventListener("scroll", () => {
 
 ScrollTrigger.matchMedia({
   //desktop
-  "(min-width: 480px)": function () {
+  "(min-width: 481px)": function () {
     window.addEventListener("scroll", () => {
-      scrollTop =
-        window.pageYOffset ||
-        window.scrollY ||
-        document.documentElement.scrollTop;
+      scrollTop = window.scrollY ||document.documentElement.scrollTop;
       scrollLayout = scrollTop * 0.5;
 
       siteCount.innerHTML = count1;
@@ -128,12 +129,6 @@ ScrollTrigger.matchMedia({
         document.querySelector("#section1 .text .t1").innerHTML = "";
         document.querySelector("#section1 .text .t2").innerHTML = "";
       }
-    });
-
-    window.addEventListener("scroll", () => {
-      scrollTop =
-        window.scrollY ||
-        document.documentElement.scrollTop;
 
       if (scrollTop > 6300) {
         document.querySelector(".right #ticket").classList.add("active1");
@@ -185,8 +180,8 @@ ScrollTrigger.matchMedia({
       }
     });
   },
-  //pad
-  "(max-width: 481px)": function () {},
+  // //pad
+  // "(max-width: 481px)": function () {},
   // phone
   "(max-width: 480px)": function () {
     // console.log("768px");
