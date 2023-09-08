@@ -221,7 +221,7 @@ ScrollTrigger.matchMedia({
         document.querySelector("#section1 .text .desc").style.display = "none";
         document.querySelector("#section1").style.alignItems = "center";
       }
-      if (scrollTop > 9900) {
+      if (scrollTop > 9000) {
         document.querySelector("#section1 .bg2").style.display = "none";
         document.querySelector("#section1 .bg").style.display = "block";
         document.querySelector("#section1 .text .desc").style.display = "none";
