@@ -1,6 +1,6 @@
 ## 메인 포트폴리오
 
-<img src="https://raw.githubusercontent.com/kebab000/2023-portfolio/src/assets/images/MAIN-PORT.png" />
+<img src="https://github.com/kebab000/2023-portfolio/tree/main/src/assets/images/MAIN-PORT.png" />
 - Live Demo : https://kebab00-portfolio2023.netlify.app/
 
 ## 정보
