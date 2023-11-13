@@ -173,11 +173,12 @@ ScrollTrigger.matchMedia({
         document.querySelector(".right #ticket").classList.remove("active10");
         document.querySelector(".right #ticket").classList.add("active11");
       }
-      if (scrollTop > 39000) {
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         document.querySelector(".right #ticket").classList.remove("active11");
         document.querySelector(".right #ticket").classList.add("active12");
         document.querySelector(".right #ticket").style.transition = "all 2.5s";
       }
+
     });
   },
   // //pad
