@@ -1,11 +1,12 @@
 ScrollTrigger.matchMedia({
   //desktop
   "(min-width: 481px)": function () {
+    //가로모드 코드
     const sections = gsap.utils.toArray(".section");
     const section6Width = document.querySelector("#section6").offsetWidth;
     console.log(section6Width);
     let scrollTween = gsap.to("#section6", {
-      x: -(document.querySelector("#section6").offsetWidth - window.innerWidth),
+      x: -(section6Width - window.innerWidth),
       ease: "none",
       scrollTrigger: {
         trigger: "#section6",
