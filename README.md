@@ -1,7 +1,7 @@
 ## 메인 포트폴리오
 
-<img src="https://raw.githubusercontent.com/kebab000/2023-portfolio/main/src/assets/images/MAIN-PORT.png" />
-- Live Demo : https://kebab00.com/
+<img src="https://raw.githubusercontent.com/kebab-lee/2023-portfolio/main/src/assets/images/MAIN-PORT.png" />
+- Live Demo : https://kebab-lee.com/
 
 ## 정보
 국비지원을 통해 진행한 프로그램을 진행하며 만든 포트폴리오 사이트입니다.
